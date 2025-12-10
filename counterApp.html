@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            gap: 50px;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1{
+            /* background-color: red; */
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Counter App</h1>
+        <h2 style="font-size: 33px;">0</h2>
+
+        <div class="btnBox">
+            <button>Increment</button>
+            <button>Decrement</button>
+        </div>
+    </div>
+</body>
+</html>
