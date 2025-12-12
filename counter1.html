@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #container{
+            width: 400px;
+            height: 350px;
+            border: 2px solid green;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            
+        }
+
+        #btn1{
+            background-color: yellowgreen;
+            color: white;
+        }
+
+        #btn2{
+            background-color: tomato;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 style="font-size: 45px;">Counter App</h1>
+        <h2 id="counter" style="font-size: 40px;">0</h2>
+        <div>
+            <button onclick="xyz()" id="btn1" style="width: 120px ;height: 40px; border-radius: 7px;">Increment</button>
+            <button id="btn2" style="width: 120px ;height: 40px; border-radius: 7px;">Decrement</button>
+        </div>
+    </div>
+
+
+    <script>
+        let x = 0
+
+        let headingTag = document.getElementById('counter')
+        console.log(headingTag)
+        function xyz(){
+            // console.log("hello")
+            // x++
+            x = x+1;
+            console.log(x)
+            headingTag.innerHTML = x
+        }
+
+        // xyz()
+    </script>
+</body>
+</html>
