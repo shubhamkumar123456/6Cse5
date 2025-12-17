@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // array  --> array is non primitive data type that can store collection of data. and each data is stored in indexing form
+
+        // let arr = ["one","two", 55, true, [90, 50]];
+
+        // access any value --> using its index
+
+        // console.log(arr[2])
+        // console.log(arr[4][0])
+
+        //Note --> in array you can directly modify any value using its index
+        // arr[2] = 88
+        // console.log(arr)
+
+
+        // Array Methods -->
+        // length
+        // push
+        // pop
+        // unshift
+        // shift
+        // reverse
+        // slice
+        // splice
+        // join
+        // concat
+        // forEach
+        // map
+        // findIndex
+        // find
+
+
+        // 1)length method -->
+        // let arr = ["one","two", 55, true, [90, 50]];
+        // console.log(arr.length);  //5
+
+        // 2) push method --> can add an element at the last
+        // let arr = ["one","two", 55, true];
+        // arr.push(true);
+        // console.log(arr)
+
+        // 3) pop method --> can remove an element at the last
+        // let arr = ["one","two", 55, true];
+        // arr.pop();
+        // arr.pop();
+        // console.log(arr)  //[one, two]
+
+        // 4)unshift method --> can add an element at the start
+        // let arr = ["one","two", 55, true];
+        // arr.unshift("hello");
+        // console.log(arr)
+
+        // 5)shift method --> can remove an element at the start
+        // let arr = ["one","two", 55, true];
+        // arr.shift();
+        // console.log(arr)
+
+        //6) reverse method -->  
+        // let arr = ["one","two", 55, true];
+        // arr.reverse();
+        // console.log(arr)\
+        
+
+        //7) slice method --> 
+        // let arr = ["one","two", 55, true];
+        // let ans = arr.slice(1,3);
+        // console.log(ans)
+
+        // 8)splice method  --> can add or remove element at any place in array
+        // a)add -->
+        // let arr = ["one","two", 55, true];
+        // arr.splice(3,0,82);
+        // console.log(arr)
+
+        // b)remove --> 
+        // let arr = ["one","two", 55, true];
+        // arr.splice(2,1);
+        // console.log(arr)   //['one', 'two', true]
+
+        // c)mix case -->
+        // let arr = ["one","two", 55, true];
+        // arr.splice(1,1,'three');
+        // console.log(arr)
+
+
+        // Join method --> can convert an array into an string and can also join each value with given argument
+        // let arr = ["one","two", 55, true];  
+        // // let ans = arr.join();
+        // // console.log(ans)  //"one,two,55,true"
+        // // console.log(ans[3])
+
+        // let ans1 = arr.join(' ');
+        // console.log(ans1)  //one two 55 true
+        // let ans2 = arr.join('%');
+        // console.log(ans2)  //one two 55 true
+
+        // 9)concat method --> can merge two or more array into single array
+        // let arr = [10, 20, 30];
+        // let arr1 = [40, 50 ,60]
+
+        // let ans = arr.concat(arr1,[90, 50]);
+        // console.log(ans)
+
+
+        // Note -->  both map and forEach method are used to traverse through an array but map method can return a new array forEach can not return anything
+        // ForEach Method --> 
+        // let arr = [10, 20, 30, 40, 50, 60];
+        // arr.forEach((val , i)=>{
+        //     console.log(val , i)
+        // })
+
+        // let arr1 = [10, 20, 30, 40, 50, 60];
+        // arr1.map((val , i)=>{
+        //     console.log(val , i)
+        // })
+
+        // let arr1 = [10, 20, 30, 40, 50, 60];
+        // let ans = arr1.map((val , i)=>{
+        //     return val+1
+        // })
+        // console.log(ans)
+
+
+
+
+    </script>
+</body>
+</html>
