@@ -21,4 +21,6 @@
 // 6) get all filtered Data inside a collection-->  db.collectionName.find({key:value})
 
 //7) get a single data present inside collection -->  db.collectionName.findOne({key:value})
-        
+
+// 8) update Data -->
+//   a) update single Data --> db.collectionName.updateOne({key:value} , {$set:{key:value}})
