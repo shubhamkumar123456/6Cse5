@@ -24,3 +24,4 @@
 
 // 8) update Data -->
 //   a) update single Data --> db.collectionName.updateOne({key:value} , {$set:{key:value}})
+// example  --> db.product.updateOne( {_id: ObjectId(6954a3f3bd45b932658348d6)}  , {$set:{name:"samsung"}})
