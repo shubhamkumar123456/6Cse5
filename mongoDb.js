@@ -33,3 +33,38 @@
 
 // 10) delete collection  --> db.collectionName.drop()
 // 11) delete DataBase  --> db.dropDataBase()
+
+
+// 12) other filter methods --> gte, lte, lt ,gt, ne ,eq
+// example-->   db.collectionName.find({key:{$gte:value}})
+// example-->   db.products.find({rating:{$gte:4.3}})
+
+// let obj =[
+//         {
+//         name:"one",
+//         email:"one@gmail.com",
+//         password:"1234567",
+//         details:{
+//                 city:"kanpur",
+//                 state:"up"
+//                 }
+//         },
+//         {
+//         name:"two",
+//         email:"two@gmail.com",
+//         password:"1234567",
+//         details:{
+//                 city:"kanpur",
+//                 state:"up"
+//                 }
+//         },
+//         {
+//         name:"three",
+//         email:"three@gmail.com",
+//         password:"1234567",
+//         details:{
+//                 city:"lucknow",
+//                 state:"up"
+//                 }
+//         },
+// ]
